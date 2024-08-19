@@ -12,18 +12,17 @@ body{
     height: 200px;
     background-color: #00b4d8;
     margin: 20px;
+    float: left;
 }
                                     /*relative: se puede desplazar, su ubicacion se conserva*/
 .position{                          /*fixed: componente fijo en la pantalla*/
     background-color: #0077b6;   /*absolute: las otras cajas se desplazan ocupando el lugar*/
-    position: absolute;
-    left: 150px;
 }
 
 .parent-box{
     margin: 20px;
     background-color: #03045e;
-    position: relative;
+    /*position: relative;
     width: 400px;
-    height: 400px;
+    height: 400px;*/
 }
